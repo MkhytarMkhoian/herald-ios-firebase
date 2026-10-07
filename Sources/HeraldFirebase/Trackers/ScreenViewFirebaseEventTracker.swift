@@ -19,7 +19,7 @@ public struct ScreenViewFirebaseEventTracker: FirebaseEventTracker {
     }
 
     public func track() throws {
-        var parameters = firebaseParameters(event.parameters)
+        var parameters = event.parameters.toFirebaseParameters()
         if parameters[AnalyticsParameterScreenName] != nil {
             throw FirebaseRefusal(
                 description: "Screen view '\(event.name)' can't have a 'screen_name' parameter: "

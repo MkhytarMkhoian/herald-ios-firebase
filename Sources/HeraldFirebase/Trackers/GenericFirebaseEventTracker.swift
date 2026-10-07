@@ -14,6 +14,6 @@ public struct GenericFirebaseEventTracker: FirebaseEventTracker {
     }
 
     public func track() {
-        sdk.logEvent(event.name, parameters: firebaseParameters(event.parameters))
+        sdk.logEvent(event.name, parameters: event.parameters.toFirebaseParameters())
     }
 }
