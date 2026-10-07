@@ -1,5 +1,8 @@
 # Herald for Firebase
 
+[![Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMkhytarMkhoian%2Fherald-ios-firebase%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/MkhytarMkhoian/herald-ios-firebase)
+[![Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMkhytarMkhoian%2Fherald-ios-firebase%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/MkhytarMkhoian/herald-ios-firebase)
+
 Sends [Herald](https://github.com/MkhytarMkhoian/herald-ios) events and properties to Firebase
 Analytics (GA4), over the [Firebase iOS SDK](https://github.com/firebase/firebase-ios-sdk).
 
