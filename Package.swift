@@ -10,7 +10,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/MkhytarMkhoian/herald-ios", from: "1.1.0"),
-        .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "12.0.0"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "13.0.0"),
     ],
     targets: [
         .target(
